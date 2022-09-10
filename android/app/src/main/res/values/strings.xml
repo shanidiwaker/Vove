@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Vove</string>
+    <string name="facebook_app_id">156839819832920</string>
+    <string name="fb_login_protocol_scheme">fb156839819832920</string>
+    <color name="windowBackgroundColor">#202020</color>
+</resources>

@@ -1,0 +1,24 @@
+{
+  "name": "react-native-textinput-ios",
+  "version": "1.0.4",
+  "summary": "Bridge files of iOS native textfield",
+  "authors": {
+    "QiaoYiFei": "yifei239@126.com"
+  },
+  "homepage": "https://github.com/Eaffy/react-native-textinput-ios",
+  "license": "MIT",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/Eaffy/react-native-textinput-ios.git"
+  },
+  "source_files": "RNGTextField/*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

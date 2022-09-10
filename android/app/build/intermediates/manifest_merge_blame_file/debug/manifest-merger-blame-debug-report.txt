@@ -1,0 +1,597 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vove.android"
+4    android:versionCode="1"
+5    android:versionName="1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:5:5-66
+12-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:5:22-63
+13    <uses-permission android:name="com.android.vending.BILLING" />
+13-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:6:5-67
+13-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:7:5-81
+14-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:8:5-81
+15-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:9:5-79
+16-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.33.1] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/6a2f871ac0f7d967b4048938f25986e5/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.33.1] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/6a2f871ac0f7d967b4048938f25986e5/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:react-native-firebase] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+18-->[:react-native-firebase] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[:react-native-firebase] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+19-->[:react-native-firebase] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+20-->[com.google.firebase:firebase-iid:20.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/e73555e41278ea828c56f72c4bd4d05f/firebase-iid-20.1.0/AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:20.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/e73555e41278ea828c56f72c4bd4d05f/firebase-iid-20.1.0/AndroidManifest.xml:26:22-79
+21    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+22    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+23    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+24    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+25    <!-- for Samsung -->
+26    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+26-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:19:5-86
+26-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:19:22-83
+27    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+27-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:20:5-87
+27-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:20:22-84
+28    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+28-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:23:5-81
+28-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:23:22-78
+29    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+29-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:24:5-83
+29-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:24:22-80
+30    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+30-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:27:5-88
+30-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:27:22-85
+31    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+31-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:28:5-92
+31-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:28:22-89
+32    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+32-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:31:5-84
+32-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:31:22-81
+33    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+33-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:34:5-83
+33-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:34:22-80
+34    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+34-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:37:5-91
+34-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:37:22-88
+35    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+35-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:38:5-92
+35-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:38:22-89
+36    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+36-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:39:5-93
+36-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:39:22-90
+37    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+37-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:42:5-73
+37-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:42:22-70
+38    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+38-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:45:5-82
+38-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:45:22-79
+39    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+39-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:46:5-83
+39-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:46:22-80
+40    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+40-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:49:5-88
+40-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:49:22-85
+41    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+41-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:50:5-89
+41-->[me.leolin:ShortcutBadger:1.1.21] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/fc3cdfe0705ffcd168940acd4cb1d5d5/ShortcutBadger-1.1.21/AndroidManifest.xml:50:22-86
+42    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+43    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+43-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:8:3-74
+43-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:8:20-72
+44    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+44-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:26:5-110
+44-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:26:22-107
+45
+46    <application
+46-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:11:5-77:19
+47        android:name="com.vove.android.MainApplication"
+47-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:12:9-40
+48        android:allowBackup="false"
+48-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:13:9-36
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.3.2] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d77264eb561b407f24a32ff22bc6987/core-1.3.2/AndroidManifest.xml:24:18-86
+50        android:debuggable="true"
+51        android:icon="@mipmap/ic_launcher"
+51-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:14:9-43
+52        android:label="@string/app_name"
+52-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:15:9-41
+53        android:networkSecurityConfig="@xml/network_security_config"
+53-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:16:9-69
+54        android:requestLegacyExternalStorage="true"
+54-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:17:9-52
+55        android:roundIcon="@mipmap/ic_launcher"
+55-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:18:9-48
+56        android:supportsRtl="true"
+56-->[com.facebook.android:facebook-android-sdk:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/ff676da7300bfa4d855396050baa1463/facebook-android-sdk-5.15.3/AndroidManifest.xml:28:18-44
+57        android:theme="@style/AppTheme"
+57-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:19:9-40
+58        android:usesCleartextTraffic="true" >
+58-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:20:9-44
+59        <activity
+59-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:21:9-32:20
+60            android:name="com.vove.android.MainActivity"
+60-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:22:13-41
+61            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+61-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:23:13-90
+62            android:label="@string/app_name"
+62-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:24:13-45
+63            android:launchMode="singleTask"
+63-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:25:13-44
+64            android:screenOrientation="portrait"
+64-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:26:13-49
+65            android:windowSoftInputMode="adjustResize" >
+65-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:27:13-55
+66            <intent-filter>
+66-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:28:13-31:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:29:17-69
+67-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:29:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:30:17-77
+69-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:30:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+72-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:33:9-86
+72-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:33:19-83
+73        <activity
+73-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:34:9-38:66
+74            android:name="com.facebook.FacebookActivity"
+74-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:35:13-57
+75            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+75-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:36:13-96
+76            android:label="@string/app_name"
+76-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:37:13-45
+77            android:theme="@style/com_facebook_activity_theme" />
+77-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:38:13-63
+78
+79        <meta-data
+79-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:40:9-42:55
+80            android:name="com.facebook.sdk.ApplicationId"
+80-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:41:13-58
+81            android:value="@string/facebook_app_id" />
+81-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:42:13-52
+82        <meta-data
+82-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:44:9-46:48
+83            android:name="com.google.firebase.messaging.default_notification_channel_id"
+83-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:45:13-89
+84            android:value="@string/app_name" />
+84-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:46:13-45
+85        <meta-data
+85-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:48:9-50:54
+86            android:name="com.google.firebase.messaging.default_notification_icon"
+86-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:49:13-83
+87            android:resource="@mipmap/ic_launcher" />
+87-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:50:13-51
+88
+89        <service android:name="io.invertase.firebase.messaging.RNFirebaseMessagingService" >
+89-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:52:9-56:19
+89-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:52:18-91
+90            <intent-filter>
+90-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:53:13-55:29
+91                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+91-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:54:17-78
+91-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:54:25-75
+92            </intent-filter>
+93        </service>
+94        <service
+94-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:58:9-60:72
+95            android:name="io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService"
+95-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:59:13-96
+96            android:permission="android.permission.BIND_JOB_SERVICE" />
+96-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:60:13-69
+97
+98        <receiver android:name="io.invertase.firebase.notifications.RNFirebaseNotificationReceiver" />
+98-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:62:9-103
+98-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:62:19-100
+99        <receiver
+99-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:64:9-75:20
+100            android:name="io.invertase.firebase.notifications.RNFirebaseNotificationsRebootReceiver"
+100-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:65:13-101
+101            android:enabled="true"
+101-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:66:13-35
+102            android:exported="true" >
+102-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:67:13-36
+103            <intent-filter>
+103-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:68:13-74:29
+104                <action android:name="android.intent.action.BOOT_COMPLETED" />
+104-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:69:17-79
+104-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:69:25-76
+105                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+105-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:70:17-82
+105-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:70:25-79
+106                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+106-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:71:17-82
+106-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:71:25-79
+107
+108                <category android:name="android.intent.category.DEFAULT" />
+108-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:73:17-76
+108-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:73:27-73
+109            </intent-filter>
+110        </receiver>
+111
+112        <service
+112-->[:react-native-firebase] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+113            android:name="com.google.firebase.components.ComponentDiscoveryService"
+113-->[:react-native-firebase] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+114            android:directBootAware="true"
+114-->[com.google.firebase:firebase-common:19.3.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/a92dece86aa13f0ceaa1b7cb23e29562/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+115            android:exported="false" >
+115-->[com.google.firebase:firebase-auth:19.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b24e0a6874a273364b2478e060683f0a/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+116            <meta-data
+116-->[:react-native-firebase] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+117                android:name="com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar"
+117-->[:react-native-firebase] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[:react-native-firebase] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-auth:19.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b24e0a6874a273364b2478e060683f0a/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+120                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+120-->[com.google.firebase:firebase-auth:19.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b24e0a6874a273364b2478e060683f0a/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-auth:19.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b24e0a6874a273364b2478e060683f0a/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-messaging:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/31c579a923f020c56d5e6a0ea4ea3268/jetified-firebase-messaging-20.1.1/AndroidManifest.xml:38:13-40:85
+123                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+123-->[com.google.firebase:firebase-messaging:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/31c579a923f020c56d5e6a0ea4ea3268/jetified-firebase-messaging-20.1.1/AndroidManifest.xml:39:17-119
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-messaging:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/31c579a923f020c56d5e6a0ea4ea3268/jetified-firebase-messaging-20.1.1/AndroidManifest.xml:40:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-iid:20.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/e73555e41278ea828c56f72c4bd4d05f/firebase-iid-20.1.0/AndroidManifest.xml:32:13-34:85
+126                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+126-->[com.google.firebase:firebase-iid:20.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/e73555e41278ea828c56f72c4bd4d05f/firebase-iid-20.1.0/AndroidManifest.xml:33:17-96
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-iid:20.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/e73555e41278ea828c56f72c4bd4d05f/firebase-iid-20.1.0/AndroidManifest.xml:34:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b5802a94eee29c3c24fa995ec1e9bb99/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+129                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+129-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b5802a94eee29c3c24fa995ec1e9bb99/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b5802a94eee29c3c24fa995ec1e9bb99/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+131            <meta-data
+131-->[com.google.android.gms:play-services-measurement-api:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/98f6f350105d202699a08ed6fe424ab1/play-services-measurement-api-17.4.4/AndroidManifest.xml:30:13-32:85
+132                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+132-->[com.google.android.gms:play-services-measurement-api:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/98f6f350105d202699a08ed6fe424ab1/play-services-measurement-api-17.4.4/AndroidManifest.xml:31:17-139
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.android.gms:play-services-measurement-api:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/98f6f350105d202699a08ed6fe424ab1/play-services-measurement-api-17.4.4/AndroidManifest.xml:32:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-installations:16.3.2] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/ea810db221e46e33c7fbe44b9c397dcd/firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+135                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+135-->[com.google.firebase:firebase-installations:16.3.2] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/ea810db221e46e33c7fbe44b9c397dcd/firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-installations:16.3.2] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/ea810db221e46e33c7fbe44b9c397dcd/firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+137        </service>
+138
+139        <provider
+139-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-21:20
+140            android:name="androidx.core.content.FileProvider"
+140-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-62
+141            android:authorities="com.vove.android.provider"
+141-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-60
+142            android:exported="false"
+142-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-37
+143            android:grantUriPermissions="true" >
+143-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-47
+144            <meta-data
+144-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:58
+145                android:name="android.support.FILE_PROVIDER_PATHS"
+145-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+146                android:resource="@xml/provider_paths" />
+146-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-55
+147        </provider>
+148
+149        <activity
+149-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-25:72
+150            android:name="com.yalantis.ucrop.UCropActivity"
+150-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-60
+151            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+151-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-69
+152
+153        <provider
+153-->[:react-native-image-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+154            android:name="com.imagepicker.ImagePickerProvider"
+154-->[:react-native-image-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+155            android:authorities="com.vove.android.imagepickerprovider"
+155-->[:react-native-image-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
+156            android:exported="false"
+156-->[:react-native-image-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+157            android:grantUriPermissions="true" >
+157-->[:react-native-image-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+158            <meta-data
+158-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:58
+159                android:name="android.support.FILE_PROVIDER_PATHS"
+159-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+160                android:resource="@xml/imagepicker_provider_paths" />
+160-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-55
+161        </provider>
+162        <provider
+162-->[:react-native-webview] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+163            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+163-->[:react-native-webview] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+164            android:authorities="com.vove.android.fileprovider"
+164-->[:react-native-webview] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+165            android:exported="false"
+165-->[:react-native-webview] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+166            android:grantUriPermissions="true" >
+166-->[:react-native-webview] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+167            <meta-data
+167-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:58
+168                android:name="android.support.FILE_PROVIDER_PATHS"
+168-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+169                android:resource="@xml/file_provider_paths" />
+169-->[:react-native-image-crop-picker] /Users/shanidiwaker/Downloads/Vove-App/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-55
+170        </provider>
+171
+172        <activity android:name="com.facebook.CustomTabMainActivity" />
+172-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:9-71
+172-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:19-68
+173        <activity
+173-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:35:9-49:20
+174            android:name="com.facebook.CustomTabActivity"
+174-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:36:13-58
+175            android:exported="true" >
+175-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:37:13-36
+176            <intent-filter>
+176-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
+177                <action android:name="android.intent.action.VIEW" />
+177-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:17-69
+177-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:25-66
+178
+179                <category android:name="android.intent.category.DEFAULT" />
+179-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:73:17-76
+179-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:73:27-73
+180                <category android:name="android.intent.category.BROWSABLE" />
+180-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:17-78
+180-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:27-75
+181
+182                <data
+182-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:45:17-47:50
+183                    android:host="cct.com.vove.android"
+183-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:46:21-56
+184                    android:scheme="fbconnect" />
+184-->[com.facebook.android:facebook-common:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/5d1efb1c6eed1b237e2fb68ee2220826/jetified-facebook-common-5.15.3/AndroidManifest.xml:47:21-47
+185            </intent-filter>
+186        </activity>
+187        <activity
+187-->[com.google.firebase:firebase-auth:19.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b24e0a6874a273364b2478e060683f0a/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+188            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+188-->[com.google.firebase:firebase-auth:19.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b24e0a6874a273364b2478e060683f0a/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+189            android:excludeFromRecents="true"
+189-->[com.google.firebase:firebase-auth:19.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b24e0a6874a273364b2478e060683f0a/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+190            android:exported="true"
+190-->[com.google.firebase:firebase-auth:19.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b24e0a6874a273364b2478e060683f0a/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+191            android:launchMode="singleTask"
+191-->[com.google.firebase:firebase-auth:19.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b24e0a6874a273364b2478e060683f0a/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+192            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+192-->[com.google.firebase:firebase-auth:19.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b24e0a6874a273364b2478e060683f0a/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+193            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+193-->[com.google.firebase:firebase-auth:19.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/b24e0a6874a273364b2478e060683f0a/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+194        <!--
+195             FirebaseMessagingService performs security checks at runtime,
+196             but set to not exported to explicitly avoid allowing another app to call it.
+197        -->
+198        <service
+198-->[com.google.firebase:firebase-messaging:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/31c579a923f020c56d5e6a0ea4ea3268/jetified-firebase-messaging-20.1.1/AndroidManifest.xml:28:9-34:19
+199            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+199-->[com.google.firebase:firebase-messaging:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/31c579a923f020c56d5e6a0ea4ea3268/jetified-firebase-messaging-20.1.1/AndroidManifest.xml:29:13-82
+200            android:exported="false" >
+200-->[com.google.firebase:firebase-messaging:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/31c579a923f020c56d5e6a0ea4ea3268/jetified-firebase-messaging-20.1.1/AndroidManifest.xml:30:13-37
+201            <intent-filter android:priority="-500" >
+201-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:53:13-55:29
+202                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+202-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:54:17-78
+202-->/Users/shanidiwaker/Downloads/Vove-App/android/app/src/main/AndroidManifest.xml:54:25-75
+203            </intent-filter>
+204        </service>
+205
+206        <receiver
+206-->[com.google.firebase:firebase-iid:20.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/e73555e41278ea828c56f72c4bd4d05f/firebase-iid-20.1.0/AndroidManifest.xml:37:9-44:20
+207            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+207-->[com.google.firebase:firebase-iid:20.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/e73555e41278ea828c56f72c4bd4d05f/firebase-iid-20.1.0/AndroidManifest.xml:38:13-78
+208            android:exported="true"
+208-->[com.google.firebase:firebase-iid:20.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/e73555e41278ea828c56f72c4bd4d05f/firebase-iid-20.1.0/AndroidManifest.xml:39:13-36
+209            android:permission="com.google.android.c2dm.permission.SEND" >
+209-->[com.google.firebase:firebase-iid:20.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/e73555e41278ea828c56f72c4bd4d05f/firebase-iid-20.1.0/AndroidManifest.xml:40:13-73
+210            <intent-filter>
+210-->[com.google.firebase:firebase-iid:20.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/e73555e41278ea828c56f72c4bd4d05f/firebase-iid-20.1.0/AndroidManifest.xml:41:13-43:29
+211                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+211-->[com.google.firebase:firebase-iid:20.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/e73555e41278ea828c56f72c4bd4d05f/firebase-iid-20.1.0/AndroidManifest.xml:42:17-81
+211-->[com.google.firebase:firebase-iid:20.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/e73555e41278ea828c56f72c4bd4d05f/firebase-iid-20.1.0/AndroidManifest.xml:42:25-78
+212            </intent-filter>
+213        </receiver>
+214
+215        <activity
+215-->[com.google.android.gms:play-services-base:17.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+216            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+216-->[com.google.android.gms:play-services-base:17.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-base:17.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+218-->[com.google.android.gms:play-services-base:17.1.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+219        <activity
+219-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:12:5-271
+220            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+220-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:12:15-102
+221            android:enabled="false"
+221-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:12:103-126
+222            android:exported="false"
+222-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:12:127-151
+223            android:launchMode="singleInstance"
+223-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:12:204-239
+224            android:process=":playcore_missing_splits_activity"
+224-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:12:152-203
+225            android:stateNotNeeded="true" />
+225-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:12:240-269
+226        <activity
+226-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:13:5-226
+227            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+227-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:13:15-95
+228            android:enabled="false"
+228-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:13:96-119
+229            android:exported="false"
+229-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:13:120-144
+230            android:stateNotNeeded="true"
+230-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:13:145-174
+231            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+231-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:13:175-224
+232        <service
+232-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:16:5-145
+233            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+233-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:16:14-95
+234            android:enabled="false"
+234-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:16:96-119
+235            android:exported="true" />
+235-->[com.google.android.play:core:1.8.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/29b27ad8a632792e49dc8d23b423f833/jetified-core-1.8.0/AndroidManifest.xml:16:120-143
+236
+237        <meta-data
+237-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/c78e2a40f0b78d48d830713983eb5098/okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+238            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+238-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/c78e2a40f0b78d48d830713983eb5098/okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+239            android:value="GlideModule" />
+239-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/c78e2a40f0b78d48d830713983eb5098/okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+240
+241        <service
+241-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+242            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+242-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+243            android:exported="false" >
+243-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+244            <meta-data
+244-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+245                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+245-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+246                android:value="cct" />
+246-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+247        </service>
+248        <service
+248-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+249            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+249-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+250            android:exported="false"
+250-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+251            android:permission="android.permission.BIND_JOB_SERVICE" >
+251-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+252        </service>
+253
+254        <receiver
+254-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+255            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+255-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+256            android:exported="false" />
+256-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+257        <!--
+258         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+259         with the application context. This config is merged in with the host app's manifest,
+260         but there can only be one provider with the same authority activated at any given
+261         point; so if the end user has two or more different apps that use Facebook SDK, only the
+262         first one will be able to use the provider. To work around this problem, we use the
+263         following placeholder in the authority to identify each host application as if it was
+264         a completely different provider.
+265        -->
+266        <provider
+266-->[com.facebook.android:facebook-core:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/daf285c7594877960bbd8502c2a6fe0e/jetified-facebook-core-5.15.3/AndroidManifest.xml:39:9-42:40
+267            android:name="com.facebook.internal.FacebookInitProvider"
+267-->[com.facebook.android:facebook-core:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/daf285c7594877960bbd8502c2a6fe0e/jetified-facebook-core-5.15.3/AndroidManifest.xml:40:13-70
+268            android:authorities="com.vove.android.FacebookInitProvider"
+268-->[com.facebook.android:facebook-core:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/daf285c7594877960bbd8502c2a6fe0e/jetified-facebook-core-5.15.3/AndroidManifest.xml:41:13-72
+269            android:exported="false" />
+269-->[com.facebook.android:facebook-core:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/daf285c7594877960bbd8502c2a6fe0e/jetified-facebook-core-5.15.3/AndroidManifest.xml:42:13-37
+270
+271        <receiver
+271-->[com.facebook.android:facebook-core:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/daf285c7594877960bbd8502c2a6fe0e/jetified-facebook-core-5.15.3/AndroidManifest.xml:44:9-50:20
+272            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+272-->[com.facebook.android:facebook-core:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/daf285c7594877960bbd8502c2a6fe0e/jetified-facebook-core-5.15.3/AndroidManifest.xml:45:13-86
+273            android:exported="false" >
+273-->[com.facebook.android:facebook-core:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/daf285c7594877960bbd8502c2a6fe0e/jetified-facebook-core-5.15.3/AndroidManifest.xml:46:13-37
+274            <intent-filter>
+274-->[com.facebook.android:facebook-core:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/daf285c7594877960bbd8502c2a6fe0e/jetified-facebook-core-5.15.3/AndroidManifest.xml:47:13-49:29
+275                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+275-->[com.facebook.android:facebook-core:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/daf285c7594877960bbd8502c2a6fe0e/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:17-95
+275-->[com.facebook.android:facebook-core:5.15.3] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/daf285c7594877960bbd8502c2a6fe0e/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:25-92
+276            </intent-filter>
+277        </receiver>
+278
+279        <provider
+279-->[com.google.firebase:firebase-common:19.3.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/a92dece86aa13f0ceaa1b7cb23e29562/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+280            android:name="com.google.firebase.provider.FirebaseInitProvider"
+280-->[com.google.firebase:firebase-common:19.3.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/a92dece86aa13f0ceaa1b7cb23e29562/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+281            android:authorities="com.vove.android.firebaseinitprovider"
+281-->[com.google.firebase:firebase-common:19.3.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/a92dece86aa13f0ceaa1b7cb23e29562/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+282            android:exported="false"
+282-->[com.google.firebase:firebase-common:19.3.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/a92dece86aa13f0ceaa1b7cb23e29562/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+283            android:initOrder="100" />
+283-->[com.google.firebase:firebase-common:19.3.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/a92dece86aa13f0ceaa1b7cb23e29562/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+284
+285        <receiver
+285-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:29:9-33:20
+286            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+286-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:30:13-85
+287            android:enabled="true"
+287-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:31:13-35
+288            android:exported="false" >
+288-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:32:13-37
+289        </receiver>
+290
+291        <service
+291-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:35:9-38:40
+292            android:name="com.google.android.gms.measurement.AppMeasurementService"
+292-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:36:13-84
+293            android:enabled="true"
+293-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:37:13-35
+294            android:exported="false" />
+294-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:38:13-37
+295        <service
+295-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:39:9-43:72
+296            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+296-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:40:13-87
+297            android:enabled="true"
+297-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:41:13-35
+298            android:exported="false"
+298-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:42:13-37
+299            android:permission="android.permission.BIND_JOB_SERVICE" />
+299-->[com.google.android.gms:play-services-measurement:17.4.4] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/d2e8081655f5bfbb8b97e158f7cbf97a/play-services-measurement-17.4.4/AndroidManifest.xml:43:13-69
+300
+301        <meta-data
+301-->[com.google.android.gms:play-services-basement:17.0.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/517efb6b7c76f3b2992789761e6a91da/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+302            android:name="com.google.android.gms.version"
+302-->[com.google.android.gms:play-services-basement:17.0.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/517efb6b7c76f3b2992789761e6a91da/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+303            android:value="@integer/google_play_services_version" />
+303-->[com.google.android.gms:play-services-basement:17.0.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/517efb6b7c76f3b2992789761e6a91da/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+304        <meta-data
+304-->[com.android.billingclient:billing:3.0.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/7a74066eec001d1a4f4ae49a92355294/billing-3.0.0/AndroidManifest.xml:13:9-15:37
+305            android:name="com.google.android.play.billingclient.version"
+305-->[com.android.billingclient:billing:3.0.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/7a74066eec001d1a4f4ae49a92355294/billing-3.0.0/AndroidManifest.xml:14:13-73
+306            android:value="3.0.0" />
+306-->[com.android.billingclient:billing:3.0.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/7a74066eec001d1a4f4ae49a92355294/billing-3.0.0/AndroidManifest.xml:15:13-34
+307
+308        <activity
+308-->[com.android.billingclient:billing:3.0.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/7a74066eec001d1a4f4ae49a92355294/billing-3.0.0/AndroidManifest.xml:17:9-20:75
+309            android:name="com.android.billingclient.api.ProxyBillingActivity"
+309-->[com.android.billingclient:billing:3.0.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/7a74066eec001d1a4f4ae49a92355294/billing-3.0.0/AndroidManifest.xml:18:13-78
+310            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+310-->[com.android.billingclient:billing:3.0.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/7a74066eec001d1a4f4ae49a92355294/billing-3.0.0/AndroidManifest.xml:19:13-96
+311            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+311-->[com.android.billingclient:billing:3.0.0] /Users/shanidiwaker/.gradle/caches/transforms-2/files-2.1/7a74066eec001d1a4f4ae49a92355294/billing-3.0.0/AndroidManifest.xml:20:13-72
+312    </application>
+313
+314</manifest>

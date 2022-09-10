@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1064695450853",
+    "project_id": "v-app-5ab94",
+    "storage_bucket": "v-app-5ab94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064695450853:android:88a6b340a69083e709d80c",
+        "android_client_info": {
+          "package_name": "com.vove.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064695450853-5pfi6820n4ocmmkdda9b2331tbs5u0hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-YHSil6PGYVsVelbah6OUQOCkL0hdBDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064695450853-5pfi6820n4ocmmkdda9b2331tbs5u0hd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1064695450853-gatgl3mhi6jbphuatj7crrfdkrd9443c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vove.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

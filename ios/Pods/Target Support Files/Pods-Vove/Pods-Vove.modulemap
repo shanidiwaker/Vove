@@ -1,0 +1,6 @@
+module Pods_Vove {
+  umbrella header "Pods-Vove-umbrella.h"
+
+  export *
+  module * { export * }
+}

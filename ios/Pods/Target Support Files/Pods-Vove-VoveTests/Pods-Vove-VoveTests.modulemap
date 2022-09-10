@@ -1,0 +1,6 @@
+module Pods_Vove_VoveTests {
+  umbrella header "Pods-Vove-VoveTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

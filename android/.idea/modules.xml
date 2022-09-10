@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Vove.iml" filepath="$PROJECT_DIR$/.idea/modules/Vove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/340658816/Vove.@react-native-community_blur.iml" filepath="$PROJECT_DIR$/.idea/modules/340658816/Vove.@react-native-community_blur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-570867550/Vove.@react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/-570867550/Vove.@react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vove.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vove.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1752002139/Vove.react-native-background-job.iml" filepath="$PROJECT_DIR$/.idea/modules/1752002139/Vove.react-native-background-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-583372953/Vove.react-native-background-task.iml" filepath="$PROJECT_DIR$/.idea/modules/-583372953/Vove.react-native-background-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1256867229/Vove.react-native-background-timer.iml" filepath="$PROJECT_DIR$/.idea/modules/-1256867229/Vove.react-native-background-timer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1559021583/Vove.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1559021583/Vove.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-570867550/Vove.react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/-570867550/Vove.react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-661099635/Vove.react-native-community_geolocation.iml" filepath="$PROJECT_DIR$/.idea/modules/-661099635/Vove.react-native-community_geolocation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1068069064/Vove.react-native-community_image-editor.iml" filepath="$PROJECT_DIR$/.idea/modules/-1068069064/Vove.react-native-community_image-editor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1593843922/Vove.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1593843922/Vove.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1303467054/Vove.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1303467054/Vove.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1369003105/Vove.react-native-fbsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/1369003105/Vove.react-native-fbsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/52040324/Vove.react-native-firebase.iml" filepath="$PROJECT_DIR$/.idea/modules/52040324/Vove.react-native-firebase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1800174953/Vove.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1800174953/Vove.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1635577954/Vove.react-native-haptic-feedback.iml" filepath="$PROJECT_DIR$/.idea/modules/-1635577954/Vove.react-native-haptic-feedback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1784065915/Vove.react-native-iap.iml" filepath="$PROJECT_DIR$/.idea/modules/1784065915/Vove.react-native-iap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1011701724/Vove.react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1011701724/Vove.react-native-image-crop-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1087103427/Vove.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1087103427/Vove.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2128378993/Vove.react-native-in-app-review.iml" filepath="$PROJECT_DIR$/.idea/modules/-2128378993/Vove.react-native-in-app-review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1874841221/Vove.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-1874841221/Vove.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/330759302/Vove.react-native-localize.iml" filepath="$PROJECT_DIR$/.idea/modules/330759302/Vove.react-native-localize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/997575132/Vove.react-native-picker_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/997575132/Vove.react-native-picker_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1593287443/Vove.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1593287443/Vove.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1872136526/Vove.react-native-restart.iml" filepath="$PROJECT_DIR$/.idea/modules/-1872136526/Vove.react-native-restart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-252321902/Vove.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-252321902/Vove.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1295634902/Vove.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1295634902/Vove.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-168054948/Vove.react-native-sound-player.iml" filepath="$PROJECT_DIR$/.idea/modules/-168054948/Vove.react-native-sound-player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1395395083/Vove.react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/-1395395083/Vove.react-native-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1194672017/Vove.react-native-system-setting.iml" filepath="$PROJECT_DIR$/.idea/modules/-1194672017/Vove.react-native-system-setting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1628993632/Vove.react-native-track-player.iml" filepath="$PROJECT_DIR$/.idea/modules/-1628993632/Vove.react-native-track-player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1165543523/Vove.react-native-vibration-feedback.iml" filepath="$PROJECT_DIR$/.idea/modules/-1165543523/Vove.react-native-vibration-feedback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2036692324/Vove.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-2036692324/Vove.react-native-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1337395489/Vove.react-native-wheel-picker-android.iml" filepath="$PROJECT_DIR$/.idea/modules/-1337395489/Vove.react-native-wheel-picker-android.iml" />
+    </modules>
+  </component>
+</project>
